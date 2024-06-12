@@ -1,0 +1,89 @@
+
+body{
+    width: 100%;
+}
+
+.icon{
+    text-align: center;
+    
+}
+
+.icon a{
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.fa-solid.fa-house.fa-3x{
+    color: rgb(194, 194, 194);
+    
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.753);
+   
+}
+
+.fa-solid.fa-house.fa-3x:hover{
+    color: rgb(139, 255, 6);
+    
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+}
+
+
+.fa-brands.fa-twitter.fa-3x{
+    color: rgb(135, 227, 255);
+    
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.753);
+  
+}
+
+.fa-brands.fa-twitter.fa-3x:hover{
+    color: rgb(61, 210, 255);
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+}
+
+.fa-brands.fa-youtube.fa-3x{
+    color: rgb(240, 70, 70);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+   
+}
+
+.fa-brands.fa-youtube.fa-3x:hover{
+    color: rgb(255, 123, 123);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+}
+
+.fa-brands.fa-tiktok.fa-3x{
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+  
+
+}
+
+
+.fa-brands.fa-tiktok.fa-3x:hover{
+    color: rgb(78, 75, 75);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
+
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+span{
+    color: red;
+}
+
+@media screen and (max-width:600px) {
+   .fa-solid.fa-house.fa-3x,.fa-brands.fa-twitter.fa-3x,.fa-brands.fa-youtube.fa-3x,.fa-brands.fa-tiktok.fa-3x{
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+
+   }
+} 
+
+
+
